@@ -12,11 +12,15 @@ Go into the app info settings, and ensure Termux has the Files permission. This 
 ```
 pkg install wget
 ```
-Finally, run:
+Download the script
 ```
 wget https://raw.githubusercontent.com/AyeItsHarry/WiiLinkPatcherAndroid/main/wiilink.sh
 ```
-Then, run
+Make it executable:
+```
+chmod +x wiilink.sh
+```
+Finally, run the patcher:
 ```
 ./wiilink.sh
 ```
