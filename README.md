@@ -8,4 +8,4 @@ This project works through the Android app Termux, which allows the installation
 
 ### Getting started
 First install Termux from [F-Droid](https://f-droid.org/en/packages/com.termux/).
-Go into the app info settings, and ensure Termux has the Files permission. This is needed, as otherwise the patched files can't be copied outside of the Debian sandbox. Next, enter Termux, and run `pkg install wget`. Finally, run `wget https://raw.githubusercontent.com/AyeItsHarry/WiiLinkPatcherAndroid/main/wiilink.sh`, then run `./wiilink.sh`. You'll be in the patcher in no time!
+Go into the app info settings, and ensure Termux has the Files permission. This is needed, as otherwise the patched files can't be copied outside of the Debian sandbox. Next, enter Termux, and run ```pkg install wget```. Finally, run ```wget https://raw.githubusercontent.com/AyeItsHarry/WiiLinkPatcherAndroid/main/wiilink.sh```, then run ```./wiilink.sh```. You'll be in the patcher in no time!
