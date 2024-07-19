@@ -1,4 +1,4 @@
-apt install icu-devtools -y
+apt install libicu-dev -y
 DOWNLOAD_URL=$(curl -L -s https://api.github.com/repos/WiiLink24/WiiLink24-Patcher/releases/latest | grep -o -E "https://(.*)WiiLinkPatcher_Linux-ARM64(.*)")
 DOWNLOAD_URL=${DOWNLOAD_URL::-1}
 wget -O WLP $DOWNLOAD_URL
