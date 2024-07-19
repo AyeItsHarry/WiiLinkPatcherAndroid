@@ -19,16 +19,16 @@ pkg install wget
 #### Step four
 Download the script
 ```
-wget https://raw.githubusercontent.com/AyeItsHarry/WiiLinkPatcherAndroid/main/wiilink.sh
+wget https://raw.githubusercontent.com/AyeItsHarry/WiiLinkPatcherAndroid/main/termux.sh
 ```
 #### Step five
 Make it executable
 ```
-chmod +x wiilink.sh
+chmod +x termux.sh
 ```
 #### Step six
 Run the patcher
 ```
-./wiilink.sh
+./termux.sh
 ```
 Once in the patcher, your SD card will NOT be detected. This behaviour is expected. Run the patcher without an SD card, and exit it once it has patched the files. The script will then copy the files the patcher generated to the WiiLink folder on your device's internal storage. From there, you can either install the WADs in Dolphin, or copy them over to an SD card for use on a real Wii.
