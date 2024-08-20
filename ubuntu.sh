@@ -4,6 +4,7 @@ DOWNLOAD_URL=${DOWNLOAD_URL::-1}
 wget -O WLP $DOWNLOAD_URL
 chmod +x WLP
 ./WLP
+rm -rf /sdcard/WiiLink
 mkdir /sdcard/WiiLink
 echo Copying patched WADs...
 cp -r WAD/ /sdcard/WiiLink/WAD

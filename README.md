@@ -19,7 +19,7 @@ pkg install wget
 #### Step four
 Download the script
 ```
-wget https://raw.githubusercontent.com/AyeItsHarry/WiiLinkPatcherAndroid/main/termux.sh
+wget -O termux.sh https://raw.githubusercontent.com/AyeItsHarry/WiiLinkPatcherAndroid/main/termux.sh
 ```
 #### Step five
 Make it executable
