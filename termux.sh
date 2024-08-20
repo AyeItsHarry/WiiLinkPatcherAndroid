@@ -6,6 +6,6 @@ pd i ubuntu
 pd sh ubuntu -- apt update
 pd sh ubuntu -- apt upgrade -y
 pd sh ubuntu -- apt install wget -y
-pd sh ubuntu -- wget https://raw.githubusercontent.com/AyeItsHarry/WiiLinkPatcherAndroid/main/ubuntu.sh
-pd sh ubuntu -- chmod +x ubuntu.sh
-pd sh ubuntu -- ./ubuntu.sh
+pd sh ubuntu -- wget -O /sdcard/WiiLink/ubuntu.sh https://raw.githubusercontent.com/AyeItsHarry/WiiLinkPatcherAndroid/main/ubuntu.sh
+pd sh ubuntu -- chmod +x /sdcard/WiiLink/ubuntu.sh
+pd sh ubuntu -- /sdcard/WiiLink/ubuntu.sh
