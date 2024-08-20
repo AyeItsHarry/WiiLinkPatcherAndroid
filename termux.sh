@@ -1,3 +1,6 @@
+rm -rf /sdcard/WiiLink
+mkdir /sdcard/WiiLink
+cd /sdcard/WiiLink
 pkg install proot-distro -y
 pd i ubuntu
 pd sh ubuntu -- apt update
