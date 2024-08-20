@@ -1,7 +1,9 @@
 # WiiLinkPatcherAndroid
 Run the arm64 build of the WiiLink patcher through Termux on your Android device 
 
-## WARNING - I AM NOT AFFILIATED WITH WIILINK. THIS IS AN UNOFFICIAL SCRIPT, PLEASE DON'T CONTACT THEM WITH ISSUES
+## DISCLAIMER - THIS IS NOT AN OFFICIAL WIILINK TOOL, THIS IS AN UNOFFICIAL SCRIPT. I AM NOT RESPONSIBLE FOR ANY DATA LOSS THAT COULD OCCUR THROUGH THE USE OF THIS TOOL.
+
+For support with this script, join the [WiiLink Discord](https://discord.gg/wiilink), and ping me (@ayeitsharry) in #support-text, with a screenshot and description of your issue.
 
 ### How it works
 This project works through the Android app Termux, which allows the installation of a Debian Linux environment. All this script does is install the Debian environment, run the WiiLink patcher for arm64 linux inside of it, and copy the patched files to your phone's internal storage.
