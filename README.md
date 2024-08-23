@@ -12,7 +12,7 @@ This project works through the Android app Termux, which allows the installation
 #### Step one
 Install Termux from [F-Droid](https://f-droid.org/en/packages/com.termux/). The Google Play Store version is unstable and missing functionality, see [here](https://github.com/termux-play-store/) for more information.
 #### Step two
-Go into the app info settings, and ensure Termux has the Files permission. This is needed, as otherwise the patched files can't be copied outside of the Debian sandbox.
+Go into the app info settings, and ensure Termux has the Files permission. This is needed, as otherwise the patched files can't be copied outside of the Ubuntu sandbox.
 #### Step three
 Enter Termux, and run:
 ```

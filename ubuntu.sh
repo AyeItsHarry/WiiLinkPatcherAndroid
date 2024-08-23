@@ -4,7 +4,10 @@ DOWNLOAD_URL=${DOWNLOAD_URL::-1}
 wget -O WLP $DOWNLOAD_URL
 chmod +x WLP
 ./WLP
-rm -rf /sdcard/WiiLink
+if [ -d "/sdcard/WiiLink" ]; then
+    echo "Clearing up from previous use..."
+    rm -r /sdcard/WiiLink
+fi
 mkdir /sdcard/WiiLink
 echo Copying patched WADs...
 cp -r WAD/ /sdcard/WiiLink/WAD
