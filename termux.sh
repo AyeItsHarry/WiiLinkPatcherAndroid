@@ -1,5 +1,7 @@
 pkg install proot-distro -y
-pd i ubuntu
+if [ ! -d "/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/ubuntu" ]; then
+    pd i ubuntu
+fi
 pd sh ubuntu -- apt update
 pd sh ubuntu -- apt upgrade -y
 pd sh ubuntu -- apt install wget -y
