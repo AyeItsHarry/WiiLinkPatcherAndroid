@@ -11,12 +11,12 @@ if [ -d "apps" ]; then
     echo "Clearing up previous apps..."
     rm -r apps
 fi
-./WLP
 if [ -d "/sdcard/WiiLink" ]; then
-    echo "Clearing up from previous use..."
+    echo "Clearing up previous WiiLink folder..."
     rm -r /sdcard/WiiLink
 fi
-if [ ! -d "WAD" ] && [ ! -d "apps"]; then
+./WLP
+if [ ! -d "WAD" ] && [ ! -d "apps" ]; then
     echo "There are no files to copy!"
 else
     mkdir /sdcard/WiiLink
