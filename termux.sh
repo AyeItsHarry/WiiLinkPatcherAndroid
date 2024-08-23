@@ -1,3 +1,6 @@
+if [ ! -d "/sdcard/Android" ]; then
+    termux-setup-storage
+fi
 pkg install proot-distro -y
 if [ ! -d "/data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/ubuntu" ]; then
     pd i ubuntu
