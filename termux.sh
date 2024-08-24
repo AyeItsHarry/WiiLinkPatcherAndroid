@@ -1,4 +1,4 @@
-if [ ! -d "/storage/emulated/0/Android" ]; then
+if [ ! -r "/storage/emulated/0" ]; then
     termux-setup-storage
 fi
 pkg install proot-distro -y
